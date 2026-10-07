@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+ec2_health_monitor/__init__.py
+ec2_health_monitor/cli.py
+ec2_health_monitor/monitor.py
+ec2_health_monitor.egg-info/PKG-INFO
+ec2_health_monitor.egg-info/SOURCES.txt
+ec2_health_monitor.egg-info/dependency_links.txt
+ec2_health_monitor.egg-info/entry_points.txt
+ec2_health_monitor.egg-info/requires.txt
+ec2_health_monitor.egg-info/top_level.txt
+tests/test_monitor.py

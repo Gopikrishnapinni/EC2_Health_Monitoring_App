@@ -1,0 +1,13 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: ec2-monitor
+resources:
+  - namespace.yaml
+  - serviceaccount.yaml
+  - configmap.yaml
+  - cronjob.yaml
+images:
+  - name: ec2-health-monitor
+    newName: your-registry.example.com/ec2-health-monitor
+    newTag: "0.1.0"
+

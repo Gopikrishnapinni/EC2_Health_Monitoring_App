@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ec2-health-monitor-config
+  namespace: ec2-monitor
+data:
+  AWS_DEFAULT_REGION: us-east-1
+  CPU_THRESHOLD: "80"
+  LOOKBACK_MINUTES: "15"
+
